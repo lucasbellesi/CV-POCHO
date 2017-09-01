@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script:700|Lobster|Pacifico');
+body {
+  background-color: lightgrey;
+  font-family: monospace, arial, sans-serif;
+}
+.imgcv {
+  float:top;
+  margin: auto;
+  margin-top: 10px;
+  padding: none;
+  border: 5px solid black;
+  background-color: #49cea4;
+  position: relative;
+  height: 250px;
+  width: 250px;
+}
+.imgcv img {
+  height: 250px;
+  width: 250px;
+}
+#contenido {
+    text-align: center;
+}
+.listacv {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.primeracaja {
+  float:top;
+  margin: auto;
+  padding: 20px;
+  border: 5px solid black;
+  font-size: 18px;
+  content: "";
+  clear: both;
+  display: grid;
+  background-color: rgba(80, 206, 164, 0.5);
+  float: segundacaja;
+}
+#boton1 {
+  font-size: 150%;
+  font-family: 'Pacifico', cursive;
+  margin: 10px;
+  padding: 5px;
+  border: 5px solid black;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+  background-color: #165942;
+}
+#boton1:hover {
+    background-color: green;
+}
+h1 {
+  font-family: 'Lobster', cursive;
+  font-size: 250%;
+  font-weight: bold;
+  content: "";
+  text-align: center;
+  margin: auto;
+}
+.mas-sobre-mi {
+  margin: auto;
+  float: primeracaja;
+  padding: 10px;
+  clear: both;
+  border: 5px solid black;
+  font-weight: lighter;
+  text-align: center;
+  background-color: rgba(0,255, 0, 0.1);
+  font-size: 130%;
+  display: none;
+}
+a {
+  font-style: normal;
+  font-size: 125%;
+  color: black;
+  text-decoration:none;
+}
+.iconos {
+  width: auto;
+  height: 128px;
+  margin: auto;
+}
+.enlaces {
+  font-style: lighter;
+  font-family: arial, sans-serif;
+  text-align:center;
+  text-decoration:none;
+  margin:auto;
+  padding: 5px;
+  border: 2.5px solid blue;
+  color: blue;
+  background-color: lightgrey;
+}
+button {
+  display: all;
+}
+button:hover {
+    background-color: lightyellow;
+}
+.sobre-mi {
+  display: none;
+}
+#image-cat {
+  position: absolute;
+  width: auto;
+  height: 80px;
+  top:30px;
+  left:23px;
+  z-index: 10000;
+  display: none;
+}
+#lentes {
+  margin: 15px;
+  width: 64px;
+  height: 16px;
+  float:imgcv;
+  top: 32px;
+  right: 658px;
+  z-index: 10000;
+  display: block;
+}
+#gorra {
+  margin: 15px;
+  width: 64px;
+  height: auto;
+  float:imgcv;
+  top: 32px;
+  right: 658px;
+  z-index: 10000;
+  display: block;
+}
+#vida {
+  margin: 15px;
+  width: 64px;
+  height: auto;
+  float:imgcv;
+  top: 32px;
+  right: 658px;
+  z-index: 10000;
+  display: block;
+}
+.texto {
+display: none;
+color: red;
+margin: auto;
+}
+h2 {
+  font-family: 'Dancing Script';
+}
+#cat {
+  position: relative;
+}
+#enchulador {
+  position: static;
+  display: none;
+  padding: auto;
+  margin: auto;
+  float: bottom;
+  font-size: 150%;
+  border: 5px outset;
+  border-color: black;
+  background: green;
+  z-index: 12000;
+}
+.elementos {
+    display: block;
+    margin: auto;
+    width: 100%;
+    height: 100%;
+}
+#enchuladorid {
+  display: static;
+  margin: auto;
+  font-family: 'Dancing Script';
+  padding: 10px;
+  color: white;
+}
+.draggable {
+  z-index: 14000;
+  width:64px;
+  height:auto;
+}
+#titulo3 {
+  font-family: 'Dancing Script';
+  padding: 10px;
+  color: white;
+}
